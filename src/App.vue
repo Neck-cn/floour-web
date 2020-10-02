@@ -4,7 +4,7 @@
 <!--      <router-view v-if="$route.meta.keepAlive"></router-view>-->
 <!--    </keep-alive>-->
     <router-view></router-view>
-    <van-tabbar v-model="selected">
+    <van-tabbar v-model="selected" style="height:60px">
       <van-tabbar-item icon="cart">
         送货
       </van-tabbar-item>

@@ -2,7 +2,7 @@
 ajax请求函数封装;axios+promise
 * ajax请求函数模块*/
 import axios from 'axios'
-import global from "./global";
+import global from "../global/global";
 
 const qs = require('qs');
 export default function ajax(url, data = {}, type = 'GET', content = "application/json") {//发请求/异步请求
